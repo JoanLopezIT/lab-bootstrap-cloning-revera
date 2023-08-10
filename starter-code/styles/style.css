@@ -1,0 +1,31 @@
+
+
+.carousel-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/starter-code/img/overlay.png');
+    background-size: cover;
+    opacity: 0.5; /* Adjust the opacity as needed */
+  }
+
+  .carousel-overlay {
+    position: relative;
+  }
+
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#main{
+    background-color: rgb(244, 54, 21);
+    color: white;
+}
+
+  
